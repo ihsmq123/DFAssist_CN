@@ -121,7 +121,7 @@ namespace App
                 return roulette;
             }
 
-            if (code != 0)
+            if (code != 1)
             {
                 Log.Debug($"Debug：未知的随机任务[ID.{code}]");
                 //var @event = new SentryEvent("Missing Roulette code");
